@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Examination - Exam</title>
+  <link rel="stylesheet" href="style.css"> <!-- External CSS file for styling -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header>
+    <header class="header">
+      <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="exam.html">Exam</a>
+        <a href="#">About</a>
+        <a href="index.html" class="login-link2" >Sign In</a>
+        <a href="index.html" class="register-link2">Sign Up</a>
+      </nav>
+
+      <form action="connect.php" class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button type="submit"><i class='bx bx-search-alt'></i></button>
+      </form>
+    </header>
+    
+
+      <div class="exam">
+        <h2>Exam</h2>
+        <form action="/submit" method="post">
+          <!-- Your radio button inputs and other form elements go here -->
+        </form>
+
+        <form id="question1">
+          <h3>Question 1:</h3>
+          <p>Which of the following is NOT a type of database model?</p>
+
+          <input type="radio" name="question1" value="Paris"> a) Hierarchical<br>
+          <input type="radio" name="question1" value="London"> b) Relational<br>
+          <input type="radio" name="question1" value="Berlin"> c) Circular<br>
+          <input type="radio" name="question1" value="Rome"> d) Object-oriented<br>
+
+          </form>
+
+        <form id="question2">
+          <h3>Question 2:</h3>
+          <p>Which component of a DBMS is responsible for managing the physical storage and retrieval of data?</p>
+          
+          <input type="radio" name="question1" value="Paris"> a) Data Dictionary<br>
+          <input type="radio" name="question1" value="London"> b) Query Optimizer<br>
+          <input type="radio" name="question1" value="Berlin"> c) Buffer Manager<br>
+          <input type="radio" name="question1" value="Rome"> d) Transaction Manager<br>
+          
+          </form>
+
+        <form id="question3">
+          <h3>Question 3:</h3>
+          <p>Which SQL statement is used to retrieve data from a database?</p>
+          
+          <input type="radio" name="question1" value="Paris"> a) SELECT<br>
+          <input type="radio" name="question1" value="London"> b) INSERT<br>
+          <input type="radio" name="question1" value="Berlin"> c) UPDATE<br>
+          <input type="radio" name="question1" value="Rome"> d) DELETE<br>
+          
+          </form>
+
+        <form id="question4">
+          <h3>Question 4:</h3>
+          <p>Which normal form deals with functional dependencies and eliminates partial dependencies?</p>
+          
+          <input type="radio" name="question1" value="Paris"> a) First Normal Form (1NF)<br>
+          <input type="radio" name="question1" value="London"> b) Second Normal Form (2NF)<br>
+          <input type="radio" name="question1" value="Berlin"> c) Third Normal Form (3NF)<br>
+          <input type="radio" name="question1" value="Rome"> d) Boyce-Codd Normal Form (BCNF)<br>
+          
+          </form>
+
+        <form id="question5">
+          <h3>Question 5:</h3>
+          <p>Which of the following is an example of a primary key constraint?</p>
+          
+          <input type="radio" name="question1" value="Paris"> a) UNIQUE<br>
+          <input type="radio" name="question1" value="London"> b) FOREIGN KEY<br>
+          <input type="radio" name="question1" value="Berlin"> c) NOT NULL<br>
+          <input type="radio" name="question1" value="Rome"> d) PRIMARY KEY<br>
+          
+          </form>
+
+        <form id="question6">
+          <h3>Question 6:</h3>
+          <p>Which concurrency control technique ensures that multiple transactions do not interfere with each other?</p>
+          
+          <input type="radio" name="question1" value="Paris">a) Locking<br>
+          <input type="radio" name="question1" value="London"> b) Blocking<br>
+          <input type="radio" name="question1" value="Berlin"> c) Timestamp ordering<br>
+          <input type="radio" name="question1" value="Rome"> d) Two-phase locking<br>
+          
+          </form>
+
+        <form id="question7">
+          <h3>Question 7:</h3>
+          <p>Which of the following is used to define the structure of a database, including tables, columns, and relationships?</p>
+          
+          <input type="radio" name="question1" value="Paris"> a) Data Manipulation Language (DML)<br>
+          <input type="radio" name="question1" value="London"> b) Data Definition Language (DDL)<br>
+          <input type="radio" name="question1" value="Berlin"> c) Data Control Language (DCL)<br>
+          <input type="radio" name="question1" value="Rome"> d) Data Query Language (DQL)<br>
+          
+          </form>
+
+        <form id="question8">
+          <h3>Question 8:</h3>
+          <p>Which join operation returns only the rows that have matching values in both tables?</p>
+          
+          <input type="radio" name="question1" value="Paris"> a) INNER JOIN<br>
+          <input type="radio" name="question1" value="London"> b) LEFT JOIN<br>
+          <input type="radio" name="question1" value="Berlin"> c) RIGHT JOIN<br>
+          <input type="radio" name="question1" value="Rome"> d) FULL JOIN<br>
+          
+          </form>
+
+        <form id="question9">
+          <h3>Question 9:</h3>
+          <p>Which type of index stores the index entries in a particular order that matches the physical order of the data?</p>
+          
+          <input type="radio" name="question1" value="Paris"> a) Clustered index<br>
+          <input type="radio" name="question1" value="London"> b) Non-clustered index<br>
+          <input type="radio" name="question1" value="Berlin"> c) Bitmap index<br>
+          <input type="radio" name="question1" value="Rome"> d) Hash index<br>
+          
+          </form>
+
+        <form id="question10">
+          <h3>Question 10:</h3>
+          <p>Which of the following is NOT a property of a transaction in a DBMS?</p>
+          
+          <input type="radio" name="question1" value="Paris"> a) Atomicity<br>
+          <input type="radio" name="question1" value="London"> b) Consistency<br>
+          <input type="radio" name="question1" value="Berlin"> c) Durability<br>
+          <input type="radio" name="question1" value="Rome"> d) Efficiency<br>
+          
+          </form>
+
+        <div class="button">
+          <button class="button-69" role="button">Submit</button>
+        </div>
+        
+      </div>
+
+</body>
+</html>

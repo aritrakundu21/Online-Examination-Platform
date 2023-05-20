@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="home.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+          <a href="home.html">Home</a>
+          <a href="exam2.html">Exam</a>
+          <a href="#">About</a>
+        </nav>
+  
+        <form action="connect.php" class="search-bar">
+          <input type="text" placeholder="Search...">
+          <button type="submit"><i class='bx bx-search-alt'></i></button>
+        </form>
+      </header>
+    <div class="background">
+    <div class="base">
+        <h1 class="dashboard">Dashboard</h1>
+        <div class="upcoming">
+            <h2>Upcoming Examinations</h2>
+        <div class="DBMS">
+            <h3>DBMS</h3>
+            <ul>
+                <li>Date - 20.05.2023</li>
+                <li>Duration - 2h 30m</li>
+                <li>Total Marks - 70</li>
+                <li><button class="button-48" onclick="dbms()">🔎Exam</button></li>
+            </ul>
+        </div>
+        <div class="DAA">
+            <h3>DAA</h3>
+            <ul>
+                <li>Date - 22.05.2023</li>
+                <li>Duration - 2h 30m</li>
+                <li>Total Marks - 70</li>
+                <li><button class="button-48" onclick="daa()">🔎Exam</button></li>
+            </ul>
+        </div>
+        <div class="ML">
+            <h3>ML</h3>
+            <ul>
+                <li>Date - 23.05.2023</li>
+                <li>Duration - 2h 30m</li>
+                <li>Total Marks - 70</li>
+                <li><button class="button-48" onclick="ml()">🔎Exam</button></li>
+            </ul>
+        </div>
+        <div class="DSA">
+            <h3>DSA</h3>
+            <ul>
+                <li>Date - 24.05.2023</li>
+                <li>Duration - 2h 30m</li>
+                <li>Total Marks - 70</li>
+                <li><button class="button-48" onclick="dsa()">🔎Exam</button></li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="previous">
+            <h2>Previous Examinations</h2>
+            <div class="CA">
+                <h3>Computer Architecture</h3>
+                <ul>
+                    <li>Date - 19.01.2023</li>
+                    <li>Duration - 2h 30m</li>
+                    <li>Total Marks - 70</li>
+                    <li><button class="button-48" onclick="ca()">🔎Result</button></li>
+                </ul>
+            </div>
+            <div class="AT">
+                <h3>Automata Theory</h3>
+                <ul>
+                    <li>Date - 18.01.2023</li>
+                    <li>Duration - 2h 30m</li>
+                    <li>Total Marks - 70</li>
+                    <li><button class="button-48" onclick="at()">🔎Result</button></li>
+                </ul>
+            </div>
+            <div class="AI">
+                <h3>Artificial Intelligence</h3>
+                <ul>
+                    <li>Date - 17.01.2023</li>
+                    <li>Duration - 2h 30m</li>
+                    <li>Total Marks - 70</li>
+                    <li><button class="button-48" onclick="ai()">🔎Result</button></li>
+                </ul>
+            </div>
+            <div class="OOPs">
+                <h3>OOPs</h3>
+                <ul>
+                    <li>Date - 16.01.2023</li>
+                    <li>Duration - 2h 30m</li>
+                    <li>Total Marks - 70</li>
+                <li><button class="button-48" onclick="oops()">🔎Result</button></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</body>
+</html>
